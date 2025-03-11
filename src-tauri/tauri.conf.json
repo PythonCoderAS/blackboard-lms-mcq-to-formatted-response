@@ -19,7 +19,7 @@
   },
   "productName": "blackboard-lms-mcq-to-formatted-response",
   "mainBinaryName": "blackboard-lms-mcq-to-formatted-response",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "identifier": "com.blackboard-lms-mcq-to-formatted-response.app",
   "plugins": {},
   "app": {
