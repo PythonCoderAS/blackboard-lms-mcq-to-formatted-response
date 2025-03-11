@@ -15,8 +15,9 @@ fn transform_text_to_formatted_string(
         .replace_all(text, "\n")
         .trim()
         .lines()
-        .filter(|x| !x.trim().is_empty())
-        .map(|x| x.trim().to_string())
+        .map(|x| x.trim())
+        .filter(|x| !x.is_empty())
+        .map(|x| x.to_string())
         .collect();
     let mut result_pieces: VecDeque<String> = VecDeque::with_capacity(lines.len());
     let mut counter: u8 = 0;

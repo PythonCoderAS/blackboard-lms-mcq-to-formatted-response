@@ -1,4 +1,4 @@
-import { invoke } from "@tauri-apps/api/tauri";
+import { invoke } from "@tauri-apps/api/core";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 async function appLoop() {
